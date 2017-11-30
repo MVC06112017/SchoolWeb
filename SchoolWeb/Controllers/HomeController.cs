@@ -15,7 +15,6 @@ namespace SchoolWeb.Controllers
         public ActionResult Index()
         {
 
-
             return View("Index", context.Students.ToList());
         }
     }

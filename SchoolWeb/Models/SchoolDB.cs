@@ -11,5 +11,7 @@ namespace SchoolWeb.Models
         public DbSet<Teacher> Teachers { get; set; }
         public DbSet<Student> Students { get; set; }
         public DbSet<Grade> Grades { get; set; }
+
+//        public SchoolDB() => Database.SetInitializer(new SchoolInitializer());
     }
 }
